@@ -80,7 +80,6 @@ h6,
     font-weight: 600 !important;
 }
 
-
 /*** Button ***/
 .btn {
     font-family: 'Nunito', sans-serif;
@@ -225,8 +224,15 @@ h6,
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(9, 30, 62, .7);
+ 
     z-index: 1;
+}
+
+.cap1{
+    background: rgba(9, 30, 62, 0.326);
+}
+.cap2{
+    background: rgba(9, 30, 62, 0.629);
 }
 
 .tr{
@@ -323,7 +329,9 @@ h6,
     -webkit-animation: section-title-run 5s infinite linear;
     animation: section-title-run 5s infinite linear;
 }
-
+.h h6{
+    color: white;
+}
 .wow p{
     color: #161515;
 }
@@ -453,7 +461,12 @@ h6,
 .kq{
     height: 84%;
 }
-
+.rq{
+    height: 84%;
+}
+.vq{
+    height: 83%;
+}
 
 /*** Miscellaneous ***/
 @media (min-width: 991.98px) {
